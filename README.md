@@ -1,19 +1,16 @@
-# Task Management API
-
-FastAPI приложение для управления задачами с WebSocket чатом и интеграционными тестами.
+# ТРСП Контрольная работа №5 Болотских Р.И. ЭФБО-03-24
 
 ## Команды для запуска
 
 ### Локальный запуск
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# или .venv\Scripts\activate  # Windows
+.venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 Запуск тестов
 bash
-pytest
+python -m pytest
 Docker запуск
 bash
 docker compose up --build
