@@ -8,12 +8,13 @@ python -m venv .venv
 .venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
 Запуск тестов
-```bash
 python -m pytest
+
 Docker запуск
-```bash
 docker compose up --build
+
 API Endpoints
 GET /health - проверка состояния
 
