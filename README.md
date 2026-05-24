@@ -9,10 +9,10 @@ python -m venv .venv
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 Запуск тестов
-bash
+```bash
 python -m pytest
 Docker запуск
-bash
+```bash
 docker compose up --build
 API Endpoints
 GET /health - проверка состояния
